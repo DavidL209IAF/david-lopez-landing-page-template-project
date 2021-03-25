@@ -1,0 +1,84 @@
+#mainDiv{
+    min-width: 310px;
+}
+#brandName {
+font-family: serif ;
+padding-top: 10px;
+margin-bottom: 40px;
+}
+#headerDiv{
+    display: flex;
+    justify-content: left;
+}
+#topNavBar{
+    margin-top:-40px;
+}
+
+#emailForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+
+#InputEmail{
+    width:25%;
+}
+.margin10{
+    margin: 10px 10px 10px 10px;
+}
+
+.pointHeaderPlusIcon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+#deskVideo{
+    display:flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+@media (max-width: 335px) { 
+    #brandName {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 860px){
+    #InputEmail{
+        width:50%;
+    }
+}
+
+
+.priceBox{
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 10px 75px 10px;
+}
+
+.priceHeading{
+    background-color: #9F675C;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px 0px 10px 0px;
+}
+#footerDiv{
+    border-color: black;
+    border-style: solid;
+}
+.margin5{
+margin: 5px;
+}
+#links{
+    background-color: #9F675C;
+}
+
+
