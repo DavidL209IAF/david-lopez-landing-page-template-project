@@ -14,39 +14,33 @@
     <div id="mainDiv" class="container-fluid">
         <div class="row">
             <div class="col-12">
-
-                   <!--logo and brand-->
-                <div id="headerDiv" class="d-flex justify-content-start">
-                    <img id = "deskLogo" src="deskLogo.PNG" alt="deskLogo" width="50" height="35">
-                    <h4>Premium Desks</h4>
-                </div>
-                <!--logo and brand-->
-
-                <!--NavBar-->
-            <div id = "topNavBar" class="d-flex justify-content-end">
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <button id='navButtonColl' class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <header id="header">
+              <!--NavBar-->
+                <nav id = "nav-bar" class="navbar navbar-expand-md navbar-light">
+                    <img id = "header-img" src="deskLogo.PNG" alt="deskLogo" width="50" height="35">
+                    <a id = "navBrand" class="navbar-brand" href="#">Premium Desks</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="#feature1">Features</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#deskVideo">How It Works</a></li>
+                      <div class="collapse navbar-collapse justify-content-center" id="navbarNav1">
+                    <ul id = 'testUl'class="navbar-nav align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="#feature1">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#video">How It Works</a></li>
                         <li class="nav-item"><a class="nav-link" href="#prices">Pricing</a></li>
                     </ul>
                 </div>
-                </nav> 
-            </div>   
+                </nav>  
             <!--NavBar-->
+        </header>
                
 
         <!--email form-->
-        <form>
+        <form id="form">
             <div id ="emailForm">
                 <h3 >Handcrafted, High Quality Products</h3>
-                <input type="email" class="form-control margin10" id="InputEmail"
+                <input type="email" class="form-control margin10" id="email"
                  placeholder="Enter your email address" required>
-                 <button type="submit" class="btn btn-primary margin10">Get Started</button>
+                 <button id="submit" type="submit" class="btn btn-primary margin10" formaction="https://www.freecodecamp.com/email-submit">Get Started</button>
                 </div>
             </form>
                 
@@ -77,7 +71,7 @@
                      <!--Features-->
 
                      <!--Video-->
-                     <div id="deskVideo">
+                     <div id="video">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/GQ_X-XVit_g" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
                         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -128,7 +122,8 @@
 
             </div>  
         </div>  
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!-- footer and gg-->

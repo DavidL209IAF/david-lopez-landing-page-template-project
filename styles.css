@@ -1,17 +1,12 @@
 #mainDiv{
     min-width: 310px;
 }
-#brandName {
-font-family: serif ;
-padding-top: 10px;
-margin-bottom: 40px;
+#nav-bar{
+    margin-left: -12px;
+    width: 100%;
 }
-#headerDiv{
-    display: flex;
-    justify-content: left;
-}
-#topNavBar{
-    margin-top:-40px;
+#navBrand {
+font-family: serif;
 }
 
 #emailForm{
@@ -21,7 +16,7 @@ margin-bottom: 40px;
     margin-top: 75px;
 }
 
-#InputEmail{
+#email{
     width:25%;
 }
 .margin10{
@@ -34,7 +29,7 @@ margin-bottom: 40px;
     flex-direction: column;
     margin-top: 75px;
 }
-#deskVideo{
+#video{
     display:flex;
     justify-content: center;
     margin-top: 75px;
@@ -46,12 +41,15 @@ margin-bottom: 40px;
     }
 }
 @media (max-width: 860px){
-    #InputEmail{
+    #email{
         width:50%;
     }
 }
-
-
+@media (max-width: 768px){
+    #testUl{
+        margin-right: -200px;
+    }
+}
 .priceBox{
     border-color: black;
     border-style: solid;
@@ -80,5 +78,20 @@ margin: 5px;
 #links{
     background-color: #9F675C;
 }
-
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #9F675C;
+  }
+  .navbar a {
+    float: right;
+    display: block;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+#testUl{
+    margin-left: -200px;
+}
 
