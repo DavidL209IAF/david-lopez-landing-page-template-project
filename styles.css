@@ -1,21 +1,45 @@
 #mainDiv{
     min-width: 310px;
+    height: 100vh;
 }
-#nav-bar{
-    margin-left: -12px;
-    width: 100%;
+
+body{
+    margin: 0px;
+    padding: 0px;
 }
+
+#mainCol{
+    padding: 0px;
+}
+
 #navBrand {
 font-family: serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #9F675C;
+  }
+  .navbar a {
+    float: right;
+    display: block;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  #testUl{
+    margin-left: -200px;
 }
 
 #emailForm{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 100px;
 }
-
 #email{
     width:25%;
 }
@@ -52,7 +76,7 @@ font-family: serif;
 }
 .priceBox{
     border-color: black;
-    border-style: solid;
+    border-style:double;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,30 +92,7 @@ font-family: serif;
     margin-top: 0px;
     padding: 5px 0px 10px 0px;
 }
-#footerDiv{
-    border-color: black;
-    border-style: solid;
-}
-.margin5{
-margin: 5px;
-}
+
 #links{
     background-color: #9F675C;
 }
-.navbar {
-    position: fixed;
-    width: 100%;
-    background-color: #9F675C;
-  }
-  .navbar a {
-    float: right;
-    display: block;
-  }
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
-#testUl{
-    margin-left: -200px;
-}
-
